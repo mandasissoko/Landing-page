@@ -5,3 +5,11 @@ nav.menu > ul {
 nav.menu li {
     list-style-type: none;
 }
+
+nav.footer > ul {
+    display: flex;
+}
+
+nav.footer li {
+    list-style-type: none;
+}

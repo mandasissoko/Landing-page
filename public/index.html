@@ -14,13 +14,16 @@
       <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
+        <div id="page-icon">
+            <img src="/images/bookmark.png"/>
+        </div>
         <header>
           <nav class="menu">
             <ul>
-                <li><a href="lien">NOTRE REVOLUTION</a></li>
-                <li><a href="lien">PARTAGE DE FRAIS</a></li>
-                <li><a href="lien">TARIFS</a></li>
-                <li><a href="lien">BLOG</a></li>
+                <li><a href="#">NOTRE REVOLUTION</a></li>
+                <li><a href="#">PARTAGE DE FRAIS</a></li>
+                <li><a href="#">TARIFS</a></li>
+                <li class="active"><a href="#">BLOG</a></li>
                 <li><a href="lien">CONTACT</a></li>
             </ul>
         </nav>
@@ -34,69 +37,146 @@
                     autre technique :
                       -> mettre l'image en background de la div
                       -> et donner une largeur à la div (exemple : with: 50%)
-                    on pourra voir ensemble :)
                   -->
-                  <div>
-                    <img src="url-de-l'image"/>
-                  </div>
+                  <div class="img-wrapper"></div>
+
                   <!-- cette deuxieme div pour la partie droite (texte) -->
                   <div>
-                    <h2>Danse en Compagnie</h2>
+                    <div class="date">Le 09 novembre 2020</div>
+                    <h2>Danse en compagnie</h2>
                     <p>
-                      blablabla blablabla
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus mattis posuere. 
+                        Vivamus eu tristique sem, ac venenatis sem. Sed elementum nunc et magna mattis, eget convallis nisi suscipit. 
+                        Morbi malesuada at lorem non volutpat. Sed sodales neque sed ultricies scelerisque. Duis fermentum dictum gravida. 
+                        Nulla orci orci, laoreet accumsan laoreet eu, elementum tincidunt ex.
                     </p>
+                    <div class="content-footer">
+                        <div class="categories">
+                            <span class="label"><a href="#">Catégorie 3</a></span>
+                        </div>
+                        <div class="share">
+                            <a href="#">
+                                <img src="/images/icon-fb.png"/>
+                            </a>
+                            <a href="#">
+                                <img src="/images/icon-twitter.png"/>
+                            </a>
                   </div>
                 </article>
             </section>
-
-
+            
+            <!-- Article freestyle-->
             <section id="2">
                 <article id="freestyle">
+                    <!--Image-->
+                    <div class="img-wrapper"></div>
+                    <!--Texte-->
                     <div>
-                        <img src="url-de-l'image"/>
-                    </div>
-                    <div>
+                        <div class="date">Le 09 novembre 2020</div>
                         <h2>Danse en freestyle</h2>
                         <p>
-                            Blablaba freestyle
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus mattis posuere. 
+                            Vivamus eu tristique sem, ac venenatis sem. Sed elementum nunc et magna mattis, eget convallis nisi suscipit. 
+                            Morbi malesuada at lorem non volutpat. Sed sodales neque sed ultricies scelerisque. Duis fermentum dictum gravida. 
+                            Nulla orci orci, laoreet accumsan laoreet eu, elementum tincidunt ex.
                         </p>
+                        <div class="content-footer">
+                            <div class="categories">
+                                <span class="label"><a href="#">Catégorie 1</a></span>
+                                <span class="label"><a href="#">Catégorie 2</a></span>
+                            </div>
+                            <div class="share">
+                                <a href="#">
+                                    <img src="/images/icon-fb.png"/>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/icon-twitter.png"/>
+                                </a>
                     </div>
-                 
                 </article>
             </section>
 
-
+            <!-- Article chorégraphe-->
             <section id="3">
                 <article id="choregraphie">
+                     <!--Image-->
+                    <div class="img-wrapper"></div>
+                    <!--Texte-->
                     <div>
-                        <img src="url-de-l'image"/>
-                    </div>
-                    <div>
+                        <div class="date">Le 09 novembre 2020</div>
                         <h2>Ecriture chorégraphique</h2>
                         <p>
-                            Blablaba chorégraphe
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus mattis posuere. 
+                            Vivamus eu tristique sem, ac venenatis sem. Sed elementum nunc et magna mattis, eget convallis nisi suscipit. 
+                            Morbi malesuada at lorem non volutpat. Sed sodales neque sed ultricies scelerisque. Duis fermentum dictum gravida. 
+                            Nulla orci orci, laoreet accumsan laoreet eu, elementum tincidunt ex.
                         </p>
+                        <div class="content-footer">
+                            <div class="categories">
+                                <span class="label"><a href="#">Catégorie 1</a></span>
+                            </div>
+                            <div class="share">
+                                <a href="#">
+                                    <img src="/images/icon-fb.png"/>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/icon-twitter.png"/>
+                                </a>
                     </div>
                 </article>
             </section>
             
-            
+            <!-- Article prof de danse-->
             <section id="4">
                 <article id="professeur de danse">
+                     <!--Image-->
+                     <div class="img-wrapper"></div>
+                    <!--Texte-->
                     <div>
-                        <img src="url-de-l'image"/>
-                    </div>
-                    <div>
+                        <div class="date">Le 09 novembre 2020</div>
                         <h2>Cours de danse</h2>
                         <p>
-                            Blablaba prof de danse hip-hop
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus mattis posuere. 
+                            Vivamus eu tristique sem, ac venenatis sem. Sed elementum nunc et magna mattis, eget convallis nisi suscipit. 
+                            Morbi malesuada at lorem non volutpat. Sed sodales neque sed ultricies scelerisque. Duis fermentum dictum gravida. 
+                            Nulla orci orci, laoreet accumsan laoreet eu, elementum tincidunt ex.
                         </p>
+                        <!--Réseaux sociaux-->
+                        <div class="content-footer">
+                            <div class="categories">
+                                <span class="label"><a href="#">Catégorie 1</a></span>
+                                <span class="label"><a href="#">Catégorie 2</a></span>
+                            </div>
+                            <div class="share">
+                                <a href="#">
+                                    <img src="/images/icon-fb.png"/>
+                                </a>
+                                <a href="#">
+                                    <img src="/images/icon-twitter.png"/>
+                                </a>
                     </div>
                   
                 </article>
             </section>
         </main>
+        <div class="pagination">
+            <a href="#">Précédent</a>
+            <a href="#">Suivant</a>
+        </div>
         
+        <footer>
+            <div class="copyright">
+                <span>Wedrive - © 2013 Tous droits réservés</span><br/>Design agence wype
+            </div>
+            <nav class="footer">
+                <ul>
+                    <li><a href="#">Mentions légales</a></li>
+                    <li><a href="#">Conditions générales</a></li>
+                    <li><a href="#">Presse</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </footer>
             
     </body>
 </html>
